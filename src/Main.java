@@ -13,7 +13,6 @@ public class Main {
         List<String> strings = new ArrayList<>(List.of("один", "один", "два", "два", "два", "три", "три", "три"));
         task4(strings);
     }
-
     public static void task1(List<Integer> list) {
 
         for (Integer integer : list) {
@@ -23,7 +22,6 @@ public class Main {
 
         }
     }
-
     public static void task2(List<Integer> list) {
         Set<Integer> getNumbers = new HashSet<>();
         for (Integer integer : list) {
@@ -36,7 +34,6 @@ public class Main {
             }
         }
     }
-
     public static void task3(List<String> wordList) {
         Set<String> uniqueWords = new HashSet<>(wordList);
         System.out.println(uniqueWords);
